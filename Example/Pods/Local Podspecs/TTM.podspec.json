@@ -1,0 +1,25 @@
+{
+  "name": "TTM",
+  "version": "0.1.0",
+  "summary": "A short description of TTM.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/TTM",
+  "license": "MIT",
+  "authors": {
+    "William Peroche": "williamp@datacom.co.nz"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/TTM.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "TTM": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

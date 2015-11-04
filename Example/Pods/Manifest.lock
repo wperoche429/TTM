@@ -1,0 +1,14 @@
+PODS:
+  - TTM (0.1.0)
+
+DEPENDENCIES:
+  - TTM (from `../`)
+
+EXTERNAL SOURCES:
+  TTM:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TTM: 51ea626840d37c7e1327a5042e8d04baa044bdab
+
+COCOAPODS: 0.39.0
