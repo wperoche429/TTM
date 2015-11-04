@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22E0FD721BE9BD7E00A62323 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E0FD711BE9BD7E00A62323 /* Language.swift */; };
+		22E0FD731BE9BD7E00A62323 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E0FD711BE9BD7E00A62323 /* Language.swift */; };
+		22E0FD741BE9BD7E00A62323 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E0FD711BE9BD7E00A62323 /* Language.swift */; };
 		3E85C1FF4D22B402080C266229A590F3 /* Pods-TTM_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1192DE47BD6D0684B385CF11637803F6 /* Pods-TTM_Example-dummy.m */; };
 		45633FE018B040121EBC6CEE4A05451C /* TTM-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 346F18649CA3692284CEDB3C994DCA96 /* TTM-dummy.m */; };
 		8C77C2580C3041D0D37D3DACB307A833 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		8C8C40D996F3C1AF0DA5892A891C779A /* TTM.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18FCB1B52C33CFC06380A2F8C26B9BD7 /* TTM.bundle */; };
 		90E36D34FCBE74B60129626B0917A082 /* Pods-TTM_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 959373C6C6506579D176E161639A4940 /* Pods-TTM_Tests-dummy.m */; };
 		9393FB2B256E4CB8ADAED46193B7B54E /* TTM-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04F2AF00B8BB67D08A169E5099186D53 /* TTM-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A26DD075DA76A3CE371CB92521848E9 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF91C230BD04237FA6A241993B02252D /* ReplaceMe.swift */; };
 		A2D419B6B0EC81187736C661F2D64EC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		B09E5E8B19B040D70350F6CAA4B2B714 /* Pods-TTM_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B900228FA6B2E6561073F9B33E23D375 /* Pods-TTM_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F5CD7A07B29DC0F2A17263C5034271E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
@@ -52,6 +54,7 @@
 		16715337428FD2EEA7F2E3962FB419DC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18FCB1B52C33CFC06380A2F8C26B9BD7 /* TTM.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTM.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		209B96BF444BEBBF385A40F57C667473 /* Pods-TTM_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTM_Tests-resources.sh"; sourceTree = "<group>"; };
+		22E0FD711BE9BD7E00A62323 /* Language.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
 		2AAD5AF54E81DB1503CA46618BFD3180 /* Pods-TTM_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTM_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		346F18649CA3692284CEDB3C994DCA96 /* TTM-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTM-dummy.m"; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -72,7 +75,6 @@
 		BFCC848D1D81B8F9BAC93EB56F68F480 /* Pods-TTM_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTM_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D2553D81F0841C5CE7FC57200D9A6D08 /* Pods-TTM_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTM_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D8D3F7A43BF1475A5A97BFA2CCF7672F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF91C230BD04237FA6A241993B02252D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		E0A3F970D987415C9A22B2728FF942FE /* Pods-TTM_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TTM_Example.modulemap"; sourceTree = "<group>"; };
 		E70DF3D8EA39E037BED512849985B00B /* Pods-TTM_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTM_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E864D41CF714620FA58EC78C77262BEF /* TTM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TTM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,7 +120,7 @@
 		1989C663A6843693338C6866B0E43574 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				DF91C230BD04237FA6A241993B02252D /* ReplaceMe.swift */,
+				22E0FD711BE9BD7E00A62323 /* Language.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -354,7 +356,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -408,6 +410,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90E36D34FCBE74B60129626B0917A082 /* Pods-TTM_Tests-dummy.m in Sources */,
+				22E0FD731BE9BD7E00A62323 /* Language.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +419,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E85C1FF4D22B402080C266229A590F3 /* Pods-TTM_Example-dummy.m in Sources */,
+				22E0FD721BE9BD7E00A62323 /* Language.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,7 +427,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A26DD075DA76A3CE371CB92521848E9 /* ReplaceMe.swift in Sources */,
+				22E0FD741BE9BD7E00A62323 /* Language.swift in Sources */,
 				45633FE018B040121EBC6CEE4A05451C /* TTM-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -541,6 +545,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6D3F2E0C9E6F5CE7CB430B69DFD1E65D /* Pods-TTM_Example.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -571,6 +576,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E70DF3D8EA39E037BED512849985B00B /* Pods-TTM_Example.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -629,6 +635,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D2553D81F0841C5CE7FC57200D9A6D08 /* Pods-TTM_Tests.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -700,6 +707,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BFCC848D1D81B8F9BAC93EB56F68F480 /* Pods-TTM_Tests.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
